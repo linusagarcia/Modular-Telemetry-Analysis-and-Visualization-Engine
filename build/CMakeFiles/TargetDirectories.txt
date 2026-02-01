@@ -1,0 +1,3 @@
+/home/linus/Github/Modular-Telemetry-Analysis-and-Visualization-Engine/build/CMakeFiles/telemetry_engine.dir
+/home/linus/Github/Modular-Telemetry-Analysis-and-Visualization-Engine/build/CMakeFiles/edit_cache.dir
+/home/linus/Github/Modular-Telemetry-Analysis-and-Visualization-Engine/build/CMakeFiles/rebuild_cache.dir
