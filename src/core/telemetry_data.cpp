@@ -74,7 +74,7 @@ double TelemetryBatch::get_start_time() const {
     return start_time_;
 }
 
-double TelemetryBatch::get_end_time() {
+double TelemetryBatch::get_end_time() const {
     return end_time_;
 }
 

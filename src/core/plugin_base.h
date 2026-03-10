@@ -20,6 +20,16 @@ public:
     virtual TelemetryBatch process(const TelemetryBatch& input) = 0;
 
     virtual bool is_enabled() const { return enabled_; }
-    virtual void set_enabled(bool enabled) 
-}
-}
+    virtual void set_enabled(bool enabled) { enabled_ = enabled; }
+
+private:
+    bool enabled_ = true;
+};
+
+// Plugin creation function type
+using PluginCreateFunc = PluginBase* (*)();
+using PluginDestroyFunc = void (*)(PluginBase*);
+
+} // namespace Telemetry
+
+#endif // PLUGIN_BASE_H
